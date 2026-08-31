@@ -1,7 +1,9 @@
+from datetime import date
 from airtable_client import get_all_records, update_record
 from scoring import calculer_score, get_routing
 from proposal_generator import generer_proposition_pdf
 from nurturing import jours_ecoules, message_du_jour
+from closing import jours_depuis_proposition, message_closing_du_jour
 from email_sender import envoyer_email
 
 
@@ -37,7 +39,28 @@ def main():
         update_record("Leads", record_id, {"score": score})
         print(f"📊 Score : {score}/10 → {routing}")
 
-                # --- E6 : Proposition automatique si score élevé ---
+        date_envoi_prop = fields.get("date_envoi_proposition")
+
+        # --- E7 : Relance/closing si une proposition a déjà été envoyée ---
+        if date_envoi_prop:
+            jours_c = jours_depuis_proposition(date_envoi_prop)
+            message_c = message_closing_du_jour(jours_c)
+
+            if message_c:
+                print(f"🔔 Closing (J+{jours_c} depuis l'envoi de la proposition)")
+                print(f"   Canal : {message_c['canal']}")
+                print(f"   Objet : {message_c['objet']}")
+
+                if message_c["canal"] == "Email" and email and email != "Non renseigné":
+                    succes = envoyer_email(email, message_c["objet"], message_c["contenu"])
+                    print(f"   {'✅ Email envoyé' if succes else '❌ Échec envoi'} à {email}")
+                else:
+                    print(f"   ⚠️  Canal '{message_c['canal']}' non automatisé — action manuelle requise")
+            else:
+                print(f"⏳ Aucune relance de closing prévue aujourd'hui (J+{jours_c})")
+            continue
+
+        # --- E6 : Proposition automatique si score élevé (première fois) ---
         if score >= 8:
             numero_prop = f"PROP-2026-{i+1:03d}"
             fichier = generer_proposition_pdf(fields, formation_par_defaut, numero_prop)
@@ -53,13 +76,16 @@ def main():
                         f"Bonjour {nom},\n\n"
                         f"Veuillez trouver ci-joint notre proposition commerciale "
                         f"pour la formation {formation_par_defaut.get('titre', '')}.\n\n"
-                        f"N'hésitez pas à nous contacter pour toute question.\n\n"
                         f"Cordialement,\nADBCENTER LOGISPLAN"
                     ),
                     piece_jointe=fichier
                 )
                 if succes:
                     print(f"   ✅ Proposition envoyée par email à {email}")
+                    # Enregistre la date d'envoi pour déclencher le suivi E7 plus tard
+                    update_record("Leads", record_id, {
+                        "date_envoi_proposition": date.today().strftime("%Y-%m-%d")
+                    })
                 else:
                     print(f"   ❌ Échec de l'envoi de la proposition")
             continue
@@ -84,15 +110,12 @@ def main():
 
         if message["canal"] == "Email":
             if not email or email == "Non renseigné":
-                print(f"   ⚠️  Pas d'email renseigné pour ce lead — envoi impossible")
+                print(f"   ⚠️  Pas d'email renseigné")
             else:
                 succes = envoyer_email(email, message["objet"], message["contenu"])
-                if succes:
-                    print(f"   ✅ Email envoyé à {email}")
-                else:
-                    print(f"   ❌ Échec de l'envoi")
+                print(f"   {'✅ Email envoyé' if succes else '❌ Échec envoi'} à {email}")
         elif message["canal"] == "WhatsApp":
-            print(f"   ⚠️  Canal WhatsApp non connecté — message affiché uniquement (voir CdC E7)")
+            print(f"   ⚠️  Canal WhatsApp non connecté — message affiché uniquement")
 
 
 if __name__ == "__main__":
