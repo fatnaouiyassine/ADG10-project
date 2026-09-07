@@ -5,6 +5,7 @@ from proposal_generator import generer_proposition_pdf
 from nurturing import jours_ecoules, message_du_jour
 from closing import jours_depuis_proposition, message_closing_du_jour
 from email_sender import envoyer_email
+from whatsapp_sender import envoyer_whatsapp
 
 
 def main():
@@ -22,6 +23,7 @@ def main():
         record_id = record["id"]
         nom = fields.get("nom_prenom", "Inconnu")
         email = fields.get("email")
+        telephone = fields.get("telephone")
 
         print(f"\n{'='*50}")
         print(f"👤 {nom}")
@@ -54,8 +56,14 @@ def main():
                 if message_c["canal"] == "Email" and email and email != "Non renseigné":
                     succes = envoyer_email(email, message_c["objet"], message_c["contenu"])
                     print(f"   {'✅ Email envoyé' if succes else '❌ Échec envoi'} à {email}")
+                elif message_c["canal"] == "WhatsApp":
+                    if not telephone:
+                        print(f"   ⚠️  Pas de numero de telephone renseigne")
+                    else:
+                        succes = envoyer_whatsapp(telephone, message_c["contenu"])
+                        print(f"   {'✅ WhatsApp envoye' if succes else '❌ Echec envoi'} a {telephone}")
                 else:
-                    print(f"   ⚠️  Canal '{message_c['canal']}' non automatisé — action manuelle requise")
+                    print(f"   ⚠️  Canal '{message_c['canal']}' non automatisable (appel humain requis)")
             else:
                 print(f"⏳ Aucune relance de closing prévue aujourd'hui (J+{jours_c})")
             continue
@@ -82,7 +90,6 @@ def main():
                 )
                 if succes:
                     print(f"   ✅ Proposition envoyée par email à {email}")
-                    # Enregistre la date d'envoi pour déclencher le suivi E7 plus tard
                     update_record("Leads", record_id, {
                         "date_envoi_proposition": date.today().strftime("%Y-%m-%d")
                     })
@@ -115,7 +122,11 @@ def main():
                 succes = envoyer_email(email, message["objet"], message["contenu"])
                 print(f"   {'✅ Email envoyé' if succes else '❌ Échec envoi'} à {email}")
         elif message["canal"] == "WhatsApp":
-            print(f"   ⚠️  Canal WhatsApp non connecté — message affiché uniquement")
+            if not telephone:
+                print(f"   ⚠️  Pas de numero de telephone renseigne")
+            else:
+                succes = envoyer_whatsapp(telephone, message["contenu"])
+                print(f"   {'✅ WhatsApp envoye' if succes else '❌ Echec envoi'} a {telephone}")
 
 
 if __name__ == "__main__":
