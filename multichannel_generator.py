@@ -1,29 +1,35 @@
+"""Declinaisons editoriales multicanales."""
+
+
 def generer_post_linkedin(titre, pitch_100_mots, prix_inter):
     return (
-        f"🎓 {titre}\n\n"
+        f"Développer des compétences directement mobilisables : {titre}\n\n"
         f"{pitch_100_mots}\n\n"
-        f"💰 Investissement : {prix_inter} MAD HT\n"
-        f"📍 Formation disponible à Agadir et en distanciel\n\n"
-        f"#Formation #ADBCENTER #Agadir"
+        f"Format et investissement indicatif : {prix_inter} MAD HT.\n"
+        "La session peut être adaptée au contexte et aux objectifs de votre équipe.\n\n"
+        "Échangeons pour identifier le format le plus pertinent.\n\n"
+        "#FormationProfessionnelle #DéveloppementDesCompétences #Agadir"
     )
 
 
 def generer_post_whatsapp(titre, pitch_30_mots):
     return (
-        f"Bonjour 👋\n\n"
-        f"Nouvelle formation disponible : *{titre}*\n"
+        "Bonjour,\n\n"
+        f"Nous ouvrons de nouvelles sessions pour *{titre}*.\n\n"
         f"{pitch_30_mots}\n\n"
-        f"Intéressé(e) ? Répondez à ce message pour plus d'infos."
+        "Souhaitez-vous recevoir le programme ou échanger sur vos besoins ?"
     )
 
 
 def generer_contenu_multicanal(formation: dict) -> dict:
-    titre = formation.get("titre", "")
-    pitch_30 = formation.get("pitch_30_mots", "")
-    pitch_100 = formation.get("pitch_100_mots", "")
-    prix = formation.get("prix_inter", "")
-
     return {
-        "post_linkedin": generer_post_linkedin(titre, pitch_100, prix),
-        "message_whatsapp": generer_post_whatsapp(titre, pitch_30),
+        "post_linkedin": generer_post_linkedin(
+            formation.get("titre", ""),
+            formation.get("pitch_100_mots", ""),
+            formation.get("prix_inter", ""),
+        ),
+        "message_whatsapp": generer_post_whatsapp(
+            formation.get("titre", ""),
+            formation.get("pitch_30_mots", ""),
+        ),
     }

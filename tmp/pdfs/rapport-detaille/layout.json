@@ -1,0 +1,696 @@
+{
+  "pages": 54,
+  "front": 12,
+  "entries": [
+    [
+      "heading",
+      1,
+      "Introduction Générale",
+      1
+    ],
+    [
+      "heading",
+      1,
+      "Chapitre 1 : Présentation de l’organisme d’accueil",
+      2
+    ],
+    [
+      "heading",
+      2,
+      "Introduction",
+      2
+    ],
+    [
+      "heading",
+      2,
+      "1.1 Présentation de l’organisme d’accueil",
+      2
+    ],
+    [
+      "heading",
+      3,
+      "1.1.1 ADBCENTER LOGISPLAN",
+      2
+    ],
+    [
+      "heading",
+      3,
+      "1.1.2 Adaoui Business Centre",
+      2
+    ],
+    [
+      "heading",
+      3,
+      "1.1.3 Organisation et responsabilités",
+      3
+    ],
+    [
+      "table",
+      0,
+      "Tableau 1.1 : Répartition des responsabilités",
+      3
+    ],
+    [
+      "heading",
+      3,
+      "1.1.4 Catalogue et segments",
+      3
+    ],
+    [
+      "heading",
+      3,
+      "1.1.5 Processus commercial existant",
+      3
+    ],
+    [
+      "heading",
+      2,
+      "1.2 Présentation du contexte du projet",
+      4
+    ],
+    [
+      "heading",
+      3,
+      "1.2.1 Vue d’ensemble du projet",
+      4
+    ],
+    [
+      "figure",
+      0,
+      "Figure 1.1 : Pipeline ADG-10 et périmètre actuel des huit étapes",
+      4
+    ],
+    [
+      "heading",
+      3,
+      "1.2.2 Étude de l’existant",
+      4
+    ],
+    [
+      "table",
+      0,
+      "Tableau 1.2 : Évolution entre l’ancien rapport et la version actuelle",
+      5
+    ],
+    [
+      "heading",
+      3,
+      "1.2.3 Problématique",
+      5
+    ],
+    [
+      "heading",
+      3,
+      "1.2.4 Solution proposée",
+      5
+    ],
+    [
+      "heading",
+      3,
+      "1.2.5 Enjeux du projet",
+      6
+    ],
+    [
+      "heading",
+      3,
+      "1.2.6 Contraintes",
+      6
+    ],
+    [
+      "table",
+      0,
+      "Tableau 1.3 : Contraintes et conséquences sur la conception",
+      6
+    ],
+    [
+      "heading",
+      2,
+      "1.3 Conduite du projet",
+      6
+    ],
+    [
+      "heading",
+      3,
+      "1.3.1 Démarche itérative inspirée de SCRUM",
+      6
+    ],
+    [
+      "heading",
+      3,
+      "1.3.2 Répartition des rôles",
+      7
+    ],
+    [
+      "heading",
+      3,
+      "1.3.3 Réunions et validations",
+      7
+    ],
+    [
+      "heading",
+      3,
+      "1.3.4 Phases de travail",
+      7
+    ],
+    [
+      "heading",
+      3,
+      "1.3.5 Planning",
+      8
+    ],
+    [
+      "figure",
+      0,
+      "Figure 1.2 : Planning indicatif des phases de réalisation et de validation",
+      8
+    ],
+    [
+      "heading",
+      2,
+      "Conclusion",
+      8
+    ],
+    [
+      "heading",
+      1,
+      "Chapitre 2 : Analyse et conception",
+      9
+    ],
+    [
+      "heading",
+      2,
+      "Introduction",
+      9
+    ],
+    [
+      "heading",
+      2,
+      "2.1 Spécifications des besoins",
+      9
+    ],
+    [
+      "heading",
+      3,
+      "2.1.1 Besoins fonctionnels",
+      9
+    ],
+    [
+      "table",
+      0,
+      "Tableau 2.1 : Besoins fonctionnels et critères d’acceptation",
+      9
+    ],
+    [
+      "table",
+      0,
+      "Tableau 2.2 : Pondération et règles effectives de scoring",
+      10
+    ],
+    [
+      "heading",
+      3,
+      "2.1.2 Besoins non fonctionnels",
+      11
+    ],
+    [
+      "table",
+      0,
+      "Tableau 2.3 : Exigences non fonctionnelles et état de réponse",
+      11
+    ],
+    [
+      "heading",
+      3,
+      "2.1.3 Acteurs du système",
+      11
+    ],
+    [
+      "heading",
+      3,
+      "2.1.4 Langage de modélisation",
+      11
+    ],
+    [
+      "heading",
+      2,
+      "2.2 Diagramme de cas d’utilisation",
+      12
+    ],
+    [
+      "figure",
+      0,
+      "Figure 2.1 : Cas d’utilisation du système et interventions humaines",
+      12
+    ],
+    [
+      "heading",
+      3,
+      "2.2.1 Consultation et qualification",
+      12
+    ],
+    [
+      "heading",
+      3,
+      "2.2.2 Exécution des automatisations",
+      12
+    ],
+    [
+      "heading",
+      3,
+      "2.2.3 Documents et suivi administratif",
+      13
+    ],
+    [
+      "heading",
+      2,
+      "2.3 Diagramme de séquence",
+      13
+    ],
+    [
+      "figure",
+      0,
+      "Figure 2.2 : Séquence actuelle de proposition et réconciliation CRM",
+      13
+    ],
+    [
+      "heading",
+      3,
+      "2.3.1 Séquence de nurturing",
+      14
+    ],
+    [
+      "table",
+      0,
+      "Tableau 2.4 : Jalons des séquences de qualification et de nurturing",
+      14
+    ],
+    [
+      "heading",
+      3,
+      "2.3.2 Séquence de closing",
+      15
+    ],
+    [
+      "figure",
+      0,
+      "Figure 2.3 : Chronologie du suivi commercial après proposition",
+      15
+    ],
+    [
+      "heading",
+      3,
+      "2.3.3 Séquence de contractualisation et facturation",
+      15
+    ],
+    [
+      "heading",
+      2,
+      "2.4 Diagramme de classes et modèle de données",
+      16
+    ],
+    [
+      "figure",
+      0,
+      "Figure 2.4 : Modèle conceptuel des données manipulées par ADG-10",
+      16
+    ],
+    [
+      "heading",
+      3,
+      "2.4.1 Règles d’intégrité",
+      16
+    ],
+    [
+      "heading",
+      3,
+      "2.4.2 Indicateurs de pilotage",
+      17
+    ],
+    [
+      "table",
+      0,
+      "Tableau 2.5 : Indicateurs disponibles et indicateurs à instrumenter",
+      17
+    ],
+    [
+      "heading",
+      2,
+      "Conclusion",
+      17
+    ],
+    [
+      "heading",
+      1,
+      "Chapitre 3 : Étude technique",
+      18
+    ],
+    [
+      "heading",
+      2,
+      "Introduction",
+      18
+    ],
+    [
+      "heading",
+      2,
+      "3.1 Technologies de développement",
+      18
+    ],
+    [
+      "heading",
+      3,
+      "3.1.1 Langages",
+      18
+    ],
+    [
+      "heading",
+      3,
+      "3.1.2 Bibliothèques et frameworks",
+      18
+    ],
+    [
+      "table",
+      0,
+      "Tableau 3.1 : Bibliothèques et responsabilités actuelles",
+      18
+    ],
+    [
+      "heading",
+      3,
+      "3.1.3 Services web et messagerie",
+      19
+    ],
+    [
+      "heading",
+      3,
+      "3.1.4 Système de gestion des données",
+      19
+    ],
+    [
+      "heading",
+      3,
+      "3.1.5 Outils de développement",
+      20
+    ],
+    [
+      "heading",
+      4,
+      "3.1.5.1 Environnement matériel",
+      20
+    ],
+    [
+      "heading",
+      4,
+      "3.1.5.2 Environnement logiciel",
+      20
+    ],
+    [
+      "heading",
+      2,
+      "3.2 Architecture technique",
+      21
+    ],
+    [
+      "figure",
+      0,
+      "Figure 3.1 : Architecture technique actuelle du prototype ADG-10",
+      21
+    ],
+    [
+      "heading",
+      3,
+      "3.2.1 Flux de données",
+      21
+    ],
+    [
+      "heading",
+      3,
+      "3.2.2 Gestion des erreurs",
+      22
+    ],
+    [
+      "heading",
+      3,
+      "3.2.3 Sécurité et confidentialité",
+      22
+    ],
+    [
+      "heading",
+      3,
+      "3.2.4 Dette technique observée",
+      23
+    ],
+    [
+      "table",
+      0,
+      "Tableau 3.2 : Dette technique résiduelle et conséquences",
+      23
+    ],
+    [
+      "heading",
+      2,
+      "Conclusion",
+      23
+    ],
+    [
+      "heading",
+      1,
+      "Chapitre 4 : Mise en œuvre",
+      24
+    ],
+    [
+      "heading",
+      2,
+      "Introduction",
+      24
+    ],
+    [
+      "heading",
+      2,
+      "4.1 Structure du projet",
+      24
+    ],
+    [
+      "table",
+      0,
+      "Tableau 4.1 : Organisation des modules Python",
+      24
+    ],
+    [
+      "heading",
+      3,
+      "4.1.1 Ingestion et génération de contenu",
+      25
+    ],
+    [
+      "heading",
+      3,
+      "4.1.2 Génération multicanale",
+      25
+    ],
+    [
+      "heading",
+      3,
+      "4.1.3 Scoring et routage",
+      25
+    ],
+    [
+      "heading",
+      3,
+      "4.1.4 Nurturing",
+      26
+    ],
+    [
+      "heading",
+      3,
+      "4.1.5 Proposition et e-mail",
+      26
+    ],
+    [
+      "figure",
+      0,
+      "Figure 4.1 : Première page d’une proposition générée par le code actuel, données fictives",
+      27
+    ],
+    [
+      "heading",
+      3,
+      "4.1.6 Relances et closing",
+      28
+    ],
+    [
+      "heading",
+      3,
+      "4.1.7 Convention, facture et phase E8",
+      28
+    ],
+    [
+      "figure",
+      0,
+      "Figure 4.2 : Première page de la convention actuelle, exemple sans valeur contractuelle",
+      29
+    ],
+    [
+      "figure",
+      0,
+      "Figure 4.3 : Facture produite avec un jeu de démonstration, non destinée à émission",
+      30
+    ],
+    [
+      "heading",
+      3,
+      "4.1.8 Professionnalisation des communications",
+      30
+    ],
+    [
+      "heading",
+      4,
+      "Exemple de message de proposition",
+      31
+    ],
+    [
+      "heading",
+      2,
+      "4.2 Tests de bon fonctionnement",
+      31
+    ],
+    [
+      "table",
+      0,
+      "Tableau 4.2 : Tests unitaires effectivement exécutés",
+      31
+    ],
+    [
+      "heading",
+      3,
+      "4.2.1 Critères de recette",
+      32
+    ],
+    [
+      "table",
+      0,
+      "Tableau 4.3 : Scénarios de recette et état de validation",
+      32
+    ],
+    [
+      "heading",
+      3,
+      "4.2.2 Matrice de conformité",
+      33
+    ],
+    [
+      "table",
+      0,
+      "Tableau 4.4 : Couverture actualisée des étapes E1 à E8",
+      33
+    ],
+    [
+      "heading",
+      2,
+      "4.3 Interfaces graphiques et résultats",
+      33
+    ],
+    [
+      "figure",
+      0,
+      "Figure 4.4 : Dashboard actuel exécuté avec six prospects fictifs",
+      34
+    ],
+    [
+      "heading",
+      3,
+      "4.3.1 Tableau de bord actuel",
+      34
+    ],
+    [
+      "table",
+      0,
+      "Tableau 4.5 : Vues et commandes effectivement disponibles",
+      34
+    ],
+    [
+      "figure",
+      0,
+      "Figure 4.5 : Recherche et filtrage des leads, jeu de démonstration",
+      35
+    ],
+    [
+      "heading",
+      3,
+      "4.3.2 Feuille de route d’industrialisation",
+      35
+    ],
+    [
+      "table",
+      0,
+      "Tableau 4.6 : Feuille de route et livrables attendus",
+      36
+    ],
+    [
+      "heading",
+      2,
+      "Conclusion",
+      36
+    ],
+    [
+      "heading",
+      1,
+      "Conclusion Générale et Perspectives",
+      37
+    ],
+    [
+      "heading",
+      1,
+      "Webographie",
+      38
+    ],
+    [
+      "heading",
+      1,
+      "Annexes",
+      39
+    ],
+    [
+      "heading",
+      2,
+      "Annexe A : Dictionnaire des données",
+      39
+    ],
+    [
+      "table",
+      0,
+      "Tableau A.1 : Champs de la table Formations",
+      39
+    ],
+    [
+      "table",
+      0,
+      "Tableau A.2 : Champs de la table Leads",
+      40
+    ],
+    [
+      "heading",
+      2,
+      "Annexe B : Guide d’installation et d’exécution",
+      40
+    ],
+    [
+      "heading",
+      2,
+      "Annexe C : Protocole de recette proposé",
+      41
+    ],
+    [
+      "table",
+      0,
+      "Tableau C.1 : Parcours de recette à exécuter",
+      41
+    ],
+    [
+      "heading",
+      2,
+      "Annexe D : Traçabilité de la mise à jour",
+      42
+    ]
+  ]
+}

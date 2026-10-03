@@ -1,0 +1,21 @@
+{"kind":"deck","id":"pr/5vxi3h","name":"Deck"}
+{"kind":"layout","layoutId":"bb68a59e-9041-4d06-92fd-3783e927c251","name":"Master","type":"master"}
+{"kind":"layout","layoutId":"107bb7d8-e6ee-4de7-bd71-da335f274fbe","name":"Title Slide","type":"title"}
+{"kind":"slide","id":"sl/4xuj45","slide":1,"title":"Slide 1","textShapes":0}
+{"kind":"image","id":"im/nmxk7y5o","slide":1,"name":"","alt":"Introduction to commercial follow-up: a small group of three prospect silhouettes at top, a magnifying glass around one contact silhouette in middle, a handshake at bottom.","bbox":[0,0,1920,1080]}
+{"kind":"notes","id":"nt/4xuj45","slide":1,"text":""}
+{"kind":"slide","id":"sl/4767dl","slide":2,"title":"Slide 2","textShapes":0}
+{"kind":"image","id":"im/tkz6pgb6","slide":2,"name":"","alt":"Organizing repetitive commercial work: a small stack of pending task sheets at top, a calendar with tiny clock in middle, an orderly checklist at bottom.","bbox":[0,0,1920,1080]}
+{"kind":"notes","id":"nt/4767dl","slide":2,"text":""}
+{"kind":"slide","id":"sl/ic0kjc","slide":3,"title":"Slide 3","textShapes":0}
+{"kind":"image","id":"im/xk7u5gz6","slide":3,"name":"","alt":"Conceptual modeling: three small entity rectangles linked to a central database cylinder in middle, branching down into two small document entities. This is a symbolic schematic, not a factual system diagram.","bbox":[0,0,1920,1080]}
+{"kind":"notes","id":"nt/ic0kjc","slide":3,"text":""}
+{"kind":"slide","id":"sl/gnqeih","slide":4,"title":"Slide 4","textShapes":0}
+{"kind":"image","id":"im/xwnm1w7u","slide":4,"name":"","alt":"Software implementation: a small laptop showing code brackets at top, a simple gear in middle, a checklist with two checkmarks at bottom.","bbox":[0,0,1920,1080]}
+{"kind":"notes","id":"nt/gnqeih","slide":4,"text":""}
+{"kind":"slide","id":"sl/e1ngf2","slide":5,"title":"Slide 5","textShapes":0}
+{"kind":"image","id":"im/wnql0bmt","slide":5,"name":"","alt":"Project synthesis and integration: three small separate component blocks at top linked to a single joined modular assembly in middle and a checkmark circle at bottom.","bbox":[0,0,1920,1080]}
+{"kind":"notes","id":"nt/e1ngf2","slide":5,"text":""}
+{"kind":"slide","id":"sl/75z4xu","slide":6,"title":"Slide 6","textShapes":0}
+{"kind":"image","id":"im/s3atkzex","slide":6,"name":"","alt":"Questions and discussion: a speech bubble containing a question mark at top, a second reply bubble with three dots offset in middle, two small interlocutor silhouettes at bottom.","bbox":[0,0,1920,1080]}
+{"kind":"notes","id":"nt/75z4xu","slide":6,"text":""}

@@ -1,4 +1,4 @@
-from airtable_client import get_all_records, update_record
+from airtable_client import get_all_records
 from multichannel_generator import generer_contenu_multicanal
 
 def main():

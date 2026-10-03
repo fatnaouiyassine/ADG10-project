@@ -1,0 +1,17 @@
+# ADG-10 retained template execution contract
+
+Reference: C:/Users/yassine/Downloads/exemple de rapport.docx. SHA-256: 991978028a3a01c5cdf6808cf027c3bc41f7f269e5dfa6f3a6eed115fbd3eae8. Baseline package SHA-256 inventory: package-baseline.json. Read-only Word render: reference.pdf, 50 pages. Source has 49 sections. Source remains untouched.
+
+Page geometry: portrait 11924 x 16848 twips (8.28 x 11.70 inches), zero section left/right margins. Body paragraphs create their text span with left 1080/right 1073 twips, first-line 489 twips, justified, 360 twips line spacing. Source section-pattern XML is retained by cloning the front-matter and body section components; exact header/footer relationships and distances retained. Content replacement removes obsolete project-specific sections, allowing the number of body pages to change while preserving their visual components.
+
+Cover: document.xml/body children 0-23 inclusive preserve-only; includes EMSI logo, green graphical elements, title, 2024-2025 year, theme, author and supervisor. Preserve year and all text as user asked. Dedication and acknowledgements children 24-38 preserve-only. Source exported cover can be merged into final PDF if rendering shifts any cover feature.
+
+Editable body starts at child 39. Replace legacy unrelated Bouygues/Polybrain narrative, images and static contents with actual ADG-10 state. Use the same four-chapter structure, preliminary résumé, abstract, glossary, summary and table list. No live integration success claims or invented business results. Obsolete figure lists removed because no live dashboard screenshots are being supplied. Table list reflects actual tables.
+
+Typography/components: clone source title paragraph 108 (Titre1, centered black Times New Roman inherited), chapter 123 (Titre2), section 129 (Titre3) and subsection 131 (Titre4). Numbered body page headings use Titre3, not the front-matter title role. Use source body paragraph 133 (Corpsdetexte, Times New Roman inherited); résumé/abstract clone paragraph 42 (Calibri 14pt with original full-span justified layout). Manual section numbers replace source list numbering so obsolete numbering does not leak. Source glossary native table style/borders/cell rhythm reused; widths recomputed within its existing text span, typography 11pt Times New Roman. Evidence of full paragraph and run properties recorded in role-evidence.json. No generic preset applied.
+
+Page flow: 3 preserved opening pages, 5 updated preliminary pages, then body pages 1-19 with source-style chapter divider pages. Reuse the source's page-footer components and restart Arabic numbering at Introduction. Source visual inspection evidence: ref-01 through ref-50 PNGs and sheets0-4, including each distinct front/body/chapter/table/figure pattern.
+
+Package preservation: change only word/document.xml. All styles, theme, numbering, fonts, images, relationships, headers, footers, custom XML and other opaque package members remain byte-identical. Baseline and final membership/hashes must pass, as must cover XML equality.
+
+Rendering fallback: packaged render_docx.py failed because bundled LibreOffice is unavailable on Windows. Native Microsoft Word COM export is used, with read-only opens, no source saves; rasterize PDFs with bundled Poppler. Refresh actual PAGE fields through Word export. Final QA: inspect every final page PNG; verify page numbers and contents; compare preserved cover pixels and source hash; check for clipping and orphan pages. Final requested output is one PDF, not the working DOCX or QA files.

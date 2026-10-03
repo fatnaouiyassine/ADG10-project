@@ -1,0 +1,6 @@
+{"kind":"deck","id":"pr/s0d1us","name":"Deck"}
+{"kind":"layout","layoutId":"9427a977-866b-4c1e-a8ae-c0654a822615","name":"Master","type":"master"}
+{"kind":"layout","layoutId":"8a0b5c06-b4b4-4b80-9aef-15bf8afe9a20","name":"Title Slide","type":"title"}
+{"kind":"slide","id":"sl/5l7snj","slide":1,"title":"Slide 1","textShapes":0}
+{"kind":"image","id":"im/adsb2pwv","slide":1,"name":"","alt":"Fond bleu clair et accent terracotta, composition sobre inspirée du modèle fourni","bbox":[0,0,1920,1080]}
+{"kind":"notes","id":"nt/5l7snj","slide":1,"text":""}

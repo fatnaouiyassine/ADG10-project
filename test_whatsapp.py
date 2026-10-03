@@ -1,8 +1,16 @@
-from whatsapp_sender import envoyer_whatsapp
+"""Diagnostic WhatsApp en simulation par defaut."""
 
-resultat = envoyer_whatsapp(
-    numero="+212682778238",  # mets ton propre numero pour tester
-    message="Ceci est un test depuis mon prototype ADG-10."
-)
 
-print("Succes" if resultat else "Echec")
+def main():
+    from whatsapp_sender import envoyer_whatsapp
+
+    success = envoyer_whatsapp(
+        numero="+212600000000",
+        message="Message de test ADG-10.",
+        dry_run=True,
+    )
+    print("Simulation reussie." if success else "Echec de la simulation.")
+
+
+if __name__ == "__main__":
+    main()

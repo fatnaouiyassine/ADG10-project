@@ -1,0 +1,23 @@
+.env
+.env.*
+!.env.example
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# Fichiers d'execution et documents generes
+.runtime/
+output/
+proposition_*.pdf
+contrat_*.pdf
+facture_*.pdf
+PyWhatKit_DB.txt
+
+# Fichiers locaux des outils et IDE
+.streamlit/secrets.toml
+.vscode/
+.idea/

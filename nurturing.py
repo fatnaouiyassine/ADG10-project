@@ -1,65 +1,85 @@
-from datetime import datetime, date
-import calendar
+"""Sequences de maturation et de qualification des leads."""
+
+from datetime import date, datetime
+
+from commercial_templates import nom_contact, signature, titre_formation
 
 
 SEQUENCE_NURTURING = {
     0: {
         "canal": "Email",
-        "objet": "Bienvenue chez ABC",
-        "contenu": "Confirmation + brochure PDF programme + présentation formateur"
+        "objet": "Votre projet de formation - prochaines étapes",
+        "contenu": (
+            "Bonjour {nom},\n\nMerci pour votre prise de contact concernant « {formation} ». "
+            "Afin de vous orienter vers le format le plus pertinent, nous pouvons préciser "
+            "ensemble vos objectifs, le profil des participants et le calendrier souhaité.\n\n"
+            "Je reste disponible pour un premier échange.\n\n{signature}"
+        ),
     },
     3: {
         "canal": "WhatsApp",
-        "objet": "Un résultat similaire au vôtre...",
-        "contenu": "Cas concret anonymisé + résultat chiffré (preuve sociale)"
+        "objet": "Votre besoin de formation",
+        "contenu": (
+            "Bonjour {nom}, je reviens vers vous au sujet de « {formation} ». "
+            "Je peux vous transmettre le programme détaillé et vous aider à choisir le format "
+            "adapté à votre équipe. Souhaitez-vous en discuter ?"
+        ),
     },
     7: {
         "canal": "Email",
-        "objet": "30 min peuvent changer la donne",
-        "contenu": "Invitation consultation gratuite (lien Calendly) + FAQ 3 questions"
+        "objet": "Un format adapté à vos objectifs",
+        "contenu": (
+            "Bonjour {nom},\n\nUne formation est plus efficace lorsqu'elle part des situations "
+            "réelles rencontrées par les participants. Pour « {formation} », nous pouvons "
+            "adapter les cas pratiques, le rythme et les modalités au contexte de votre "
+            "organisation.\n\nSi votre projet est toujours d'actualité, je vous propose un court "
+            "échange de cadrage.\n\n{signature}"
+        ),
     },
     14: {
         "canal": "WhatsApp",
-        "objet": "Offre valable jusqu'au [date]",
-        "contenu": "Témoignage client + remise 10% si signature ce mois"
+        "objet": "Planification de votre session",
+        "contenu": (
+            "Bonjour {nom}, avez-vous avancé sur votre projet « {formation} » ? "
+            "Nous pouvons vérifier les prochaines disponibilités et préparer une proposition "
+            "ajustée à votre calendrier."
+        ),
     },
     21: {
         "canal": "Email",
-        "objet": "Dernier message de notre part",
-        "contenu": "Récap valeur + invitation à rester en contact + lien ressource gratuite"
+        "objet": "Restons disponibles pour votre projet de formation",
+        "contenu": (
+            "Bonjour {nom},\n\nJe me permets un dernier message au sujet de « {formation} ». "
+            "Si le calendrier ou les priorités ont évolué, nous pourrons reprendre l'échange "
+            "au moment qui vous conviendra.\n\nVous pouvez simplement répondre à cet email "
+            "pour recevoir le programme ou demander un rendez-vous.\n\n{signature}"
+        ),
     },
 }
 
+SEQUENCE_QUALIFICATION = {day: SEQUENCE_NURTURING[day] for day in (0, 3, 7)}
 
-def jours_ecoules(date_premier_contact_str: str) -> int:
-    """Calcule le nombre de jours écoulés depuis le premier contact."""
+
+def jours_ecoules(date_premier_contact_str: str) -> int | None:
     if not date_premier_contact_str:
         return None
-    date_contact = datetime.strptime(date_premier_contact_str, "%Y-%m-%d").date()
-    aujourd_hui = date.today()
-    return (aujourd_hui - date_contact).days
+    contact_date = datetime.strptime(date_premier_contact_str, "%Y-%m-%d").date()
+    return (date.today() - contact_date).days
 
 
-def date_fin_de_mois() -> str:
-    """Retourne la date du dernier jour du mois en cours, au format JJ/MM/AAAA."""
-    aujourd_hui = date.today()
-    dernier_jour = calendar.monthrange(aujourd_hui.year, aujourd_hui.month)[1]
-    date_limite = date(aujourd_hui.year, aujourd_hui.month, dernier_jour)
-    return date_limite.strftime("%d/%m/%Y")
-
-
-def message_du_jour(jours: int) -> dict:
-    """
-    Retourne le message de la séquence de nurturing correspondant
-    au nombre de jours écoulés, s'il y en a un prévu aujourd'hui.
-    """
-    if jours not in SEQUENCE_NURTURING:
+def message_du_jour(
+    jours: int,
+    lead: dict | None = None,
+    formation: dict | None = None,
+    sequence: str = "nurturing",
+) -> dict | None:
+    messages = SEQUENCE_QUALIFICATION if sequence == "qualification" else SEQUENCE_NURTURING
+    if jours not in messages:
         return None
-
-    message = SEQUENCE_NURTURING[jours].copy()
-
-    # Remplace le placeholder [date] par une vraie date limite
-    if "[date]" in message["objet"]:
-        message["objet"] = message["objet"].replace("[date]", date_fin_de_mois())
-
+    message = messages[jours].copy()
+    message["contenu"] = message["contenu"].format(
+        nom=nom_contact(lead),
+        formation=titre_formation(formation),
+        signature=signature(),
+    )
     return message

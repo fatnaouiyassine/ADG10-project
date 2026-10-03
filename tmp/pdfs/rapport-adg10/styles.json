@@ -1,0 +1,174 @@
+{
+  "input": "C:\\Users\\yassine\\Downloads\\exemple de rapport.docx",
+  "fonts_by_char_count": {
+    "Calibri": 5306,
+    "Trebuchet MS": 113,
+    "Calibri Light": 12,
+    "Segoe UI": 2,
+    "Arial MT": 1
+  },
+  "direct_run_formatting_runs": 5122,
+  "direct_paragraph_formatting_paragraphs": 526,
+  "heading_like_paragraphs_not_heading_style": [
+    {
+      "para_index": 5,
+      "text": "Ann\u00e9e 2024-2025",
+      "style": "Normal"
+    },
+    {
+      "para_index": 14,
+      "text": "Ing\u00e9nierie Informatique et R\u00e9seaux",
+      "style": "Normal"
+    },
+    {
+      "para_index": 62,
+      "text": "Introduction generale\t",
+      "style": "Normal"
+    },
+    {
+      "para_index": 63,
+      "text": "Chapitre 1 : Contexte general du projet\t",
+      "style": "Normal"
+    },
+    {
+      "para_index": 68,
+      "text": "Chapitre 2 : Analyse et specification des besoins\t",
+      "style": "Normal"
+    },
+    {
+      "para_index": 74,
+      "text": "Chapitre 3 : Etude technique et conception\t",
+      "style": "Normal"
+    },
+    {
+      "para_index": 78,
+      "text": "Chapitre 4 : Realisation et resultats\t",
+      "style": "Normal"
+    },
+    {
+      "para_index": 85,
+      "text": "Conclusion generale et perspectives\t",
+      "style": "Normal"
+    },
+    {
+      "para_index": 86,
+      "text": "Webographie\t",
+      "style": "Normal"
+    },
+    {
+      "para_index": 101,
+      "text": "Tableau 2. 1 : Description de cas d'utilisation de gestion des prestations\t25",
+      "style": "Normal"
+    },
+    {
+      "para_index": 102,
+      "text": "Tableau 2. 2: Description de cas d'utilisation de gestion des observations\t25",
+      "style": "Normal"
+    },
+    {
+      "para_index": 103,
+      "text": "Tableau 2. 3 : Description de scenario de consultation de liste es JOBs\t26",
+      "style": "Normal"
+    },
+    {
+      "para_index": 136,
+      "text": "Figure 1. 1: Les chiffres de Bouygues",
+      "style": "Normal"
+    },
+    {
+      "para_index": 140,
+      "text": "Figure 1. 2: Organisations et filiales de groupe Bouygues",
+      "style": "Normal"
+    },
+    {
+      "para_index": 271,
+      "text": "Figure 1. 4 : M\u00e9thode scrum agile",
+      "style": "Normal"
+    },
+    {
+      "para_index": 277,
+      "text": "Le SCRUM Master: Mr. FARES Houssam eddine",
+      "style": "List Paragraph"
+    },
+    {
+      "para_index": 278,
+      "text": "Le Product Owner : Mr. DU POUGET Thibault\t",
+      "style": "List Paragraph"
+    },
+    {
+      "para_index": 279,
+      "text": "\u00c9quipe de development: Mr. ZIANE Mohamed - Mr. ALAOUI HARROUNI Hassan -",
+      "style": "List Paragraph"
+    },
+    {
+      "para_index": 281,
+      "text": "Testing: Mr. Karim MAAD",
+      "style": "List Paragraph"
+    },
+    {
+      "para_index": 300,
+      "text": "Figure 1. 8 : Diagramme de Gantt",
+      "style": "Normal"
+    }
+  ],
+  "examples": {
+    "direct_paragraph_formatting": [
+      {
+        "para_index": 1,
+        "text": "",
+        "style": "Body Text"
+      },
+      {
+        "para_index": 2,
+        "text": "",
+        "style": "Normal"
+      },
+      {
+        "para_index": 3,
+        "text": "",
+        "style": "Body Text"
+      },
+      {
+        "para_index": 5,
+        "text": "Ann\u00e9e 2024-2025",
+        "style": "Normal"
+      },
+      {
+        "para_index": 7,
+        "text": "",
+        "style": "Body Text"
+      }
+    ],
+    "direct_run_formatting": [
+      {
+        "para_index": 5,
+        "run_text": "Ann\u00e9e",
+        "style": "Normal"
+      },
+      {
+        "para_index": 5,
+        "run_text": " ",
+        "style": "Normal"
+      },
+      {
+        "para_index": 5,
+        "run_text": "2024-",
+        "style": "Normal"
+      },
+      {
+        "para_index": 5,
+        "run_text": "2025",
+        "style": "Normal"
+      },
+      {
+        "para_index": 14,
+        "run_text": "Ing\u00e9nierie",
+        "style": "Normal"
+      }
+    ]
+  },
+  "notes": [
+    "Direct formatting is not always wrong, but it often causes inconsistent output when templates change.",
+    "Heading-like paragraphs not using Heading styles can break TOC and accessibility."
+  ]
+}

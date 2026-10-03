@@ -1,23 +1,14 @@
-import os
-from dotenv import load_dotenv
-from pyairtable import Api
+"""Diagnostic Airtable manuel. N'est jamais execute lors d'une collecte de tests."""
 
-# Charge les variables du fichier .env
-load_dotenv()
 
-token = os.getenv("AIRTABLE_TOKEN")
-base_id = os.getenv("AIRTABLE_BASE_ID")
+def main():
+    from airtable_client import get_all_records
 
-print("Token trouvé :", token[:10] + "..." if token else "AUCUN TOKEN TROUVÉ")
-print("Base ID trouvé :", base_id if base_id else "AUCUN BASE ID TROUVÉ")
+    formations = get_all_records("Formations")
+    print(f"{len(formations)} formation(s) trouvee(s).")
+    for formation in formations:
+        print(formation["fields"].get("titre", "Sans titre"))
 
-# Connexion à Airtable
-api = Api(token)
-table = api.table(base_id, "Formations")
 
-# Lire toutes les formations
-formations = table.all()
-
-print(f"\n{len(formations)} formations trouvées :\n")
-for f in formations:
-    print(f["fields"].get("titre", "Sans titre"))
+if __name__ == "__main__":
+    main()

@@ -1,4 +1,5 @@
 from airtable_client import get_all_records
+from pipeline_utils import choisir_formation, numero_proposition
 from proposal_generator import generer_proposition_pdf
 
 
@@ -10,10 +11,11 @@ def main():
         print("Pas assez de données pour tester.")
         return
 
-    lead = leads[0]["fields"]
-    formation = formations[0]["fields"]
+    record = leads[0]
+    lead = record["fields"]
+    formation = choisir_formation(lead, formations)
 
-    numero_prop = "PROP-2026-001"
+    numero_prop = numero_proposition(record["id"])
     fichier = generer_proposition_pdf(lead, formation, numero_prop)
 
     print(f"✅ Proposition générée : {fichier}")

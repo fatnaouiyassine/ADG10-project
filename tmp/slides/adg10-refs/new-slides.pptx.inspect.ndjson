@@ -1,0 +1,25 @@
+{"kind":"deck","id":"pr/u85lam","name":"Deck"}
+{"kind":"layout","layoutId":"d80b26fa-485b-4453-8fd3-d7ec708d264f","name":"Master","type":"master"}
+{"kind":"layout","layoutId":"bf8d0127-e037-45e8-b81f-8123e3f0edb0","name":"Title Slide","type":"title"}
+{"kind":"slide","id":"sl/hcmpm0","slide":1,"title":"ADG-10  /  AUTOMATISATION DU CYCLE COMMERCIAL","textShapes":14}
+{"kind":"textbox","id":"sh/p0bml0nm","slide":1,"text":"ADG-10  /  AUTOMATISATION DU CYCLE COMMERCIAL","textPreview":"ADG-10  /  AUTOMATISATION DU CYCLE COMMERCIAL","textChars":45,"textLines":1,"bbox":[100,42,1570,45]}
+{"kind":"textbox","id":"sh/2dk3alov","slide":1,"text":"23 / 24","textPreview":"23 / 24","textChars":7,"textLines":1,"bbox":[1660,1007,145,40]}
+{"kind":"textbox","id":"sh/3yt4jq5g","slide":1,"text":"Références","textPreview":"Références","textChars":10,"textLines":1,"bbox":[100,132,1660,110]}
+{"kind":"textbox","id":"sh/gb2l8b65","slide":1,"text":"Python","textPreview":"Python","textChars":6,"textLines":1,"bbox":[145,310,440,66]}
+{"kind":"textbox","id":"sh/1cbmhgna","slide":1,"text":"https://docs.python.org/3/","textPreview":"https://docs.python.org/3/","textChars":26,"textLines":1,"bbox":[585,310,1170,66]}
+{"kind":"textbox","id":"sh/e9036loz","slide":1,"text":"Airtable Web API","textPreview":"Airtable Web API","textChars":16,"textLines":1,"bbox":[145,413,440,66]}
+{"kind":"textbox","id":"sh/fa94f65k","slide":1,"text":"https://airtable.com/developers/web/api/introduction","textPreview":"https://airtable.com/developers/web/api/introduction","textChars":52,"textLines":1,"bbox":[585,413,1170,66]}
+{"kind":"textbox","id":"sh/s7il4b6t","slide":1,"text":"Groq","textPreview":"Groq","textChars":4,"textLines":1,"bbox":[145,516,440,66]}
+{"kind":"textbox","id":"sh/t8rmdgne","slide":1,"text":"https://console.groq.com/docs/overview","textPreview":"https://console.groq.com/docs/overview","textChars":38,"textLines":1,"bbox":[585,516,1170,66]}
+{"kind":"textbox","id":"sh/x8vqpofi","slide":1,"text":"Streamlit","textPreview":"Streamlit","textChars":9,"textLines":1,"bbox":[145,619,440,66]}
+{"kind":"textbox","id":"sh/w7m9gjyx","slide":1,"text":"https://docs.streamlit.io/","textPreview":"https://docs.streamlit.io/","textChars":26,"textLines":1,"bbox":[585,619,1170,66]}
+{"kind":"textbox","id":"sh/b6d8nexc","slide":1,"text":"ReportLab","textPreview":"ReportLab","textChars":9,"textLines":1,"bbox":[145,722,440,66]}
+{"kind":"textbox","id":"sh/a54re9g7","slide":1,"text":"https://docs.reportlab.com/","textPreview":"https://docs.reportlab.com/","textChars":27,"textLines":1,"bbox":[585,722,1170,66]}
+{"kind":"textbox","id":"sh/94vqlofm","slide":1,"text":"Documentation interne : rapport de stage et code source du projet ADG-10.","textPreview":"Documentation interne : rapport de stage et code source du projet ADG-10.","textChars":73,"textLines":1,"bbox":[145,865,1620,65]}
+{"kind":"notes","id":"nt/hcmpm0","slide":1,"text":"Références techniques du projet.\nPython : https://docs.python.org/3/\nAirtable Web API : https://airtable.com/developers/web/api/introduction\nGroq : https://console.groq.com/docs/overview\nStreamlit : https://docs.streamlit.io/\nReportLab : https://docs.reportlab.com/\nDocumentation interne : rapport de stage et code source ADG-10."}
+{"kind":"slide","id":"sl/nfek2y","slide":2,"title":"ADG-10  /  AUTOMATISATION DU CYCLE COMMERCIAL","textShapes":4}
+{"kind":"textbox","id":"sh/9cj2pgjm","slide":2,"text":"ADG-10  /  AUTOMATISATION DU CYCLE COMMERCIAL","textPreview":"ADG-10  /  AUTOMATISATION DU CYCLE COMMERCIAL","textChars":45,"textLines":1,"bbox":[100,42,1570,45]}
+{"kind":"textbox","id":"sh/mps3ulkb","slide":2,"text":"24 / 24","textPreview":"24 / 24","textChars":7,"textLines":1,"bbox":[1660,1007,145,40]}
+{"kind":"textbox","id":"sh/7q1knq1w","slide":2,"text":"Merci pour\nvotre attention","textPreview":"Merci pour | votre attention","textChars":26,"textLines":2,"bbox":[100,360,1120,245]}
+{"kind":"textbox","id":"sh/wful0v2d","slide":2,"text":"Questions et échanges","textPreview":"Questions et échanges","textChars":21,"textLines":1,"bbox":[105,665,1000,85]}
+{"kind":"notes","id":"nt/nfek2y","slide":2,"text":"Je vous remercie pour votre attention. Je suis à votre disposition pour répondre à vos questions."}

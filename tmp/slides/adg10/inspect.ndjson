@@ -1,0 +1,157 @@
+{"kind":"layout","layoutId":"/ppt/slideMasters/slideMaster1.xml","name":"","type":"master","placeholders":[{"name":"title","type":"title"},{"name":"body","type":"body"},{"name":"footer","type":"footer"},{"name":"dateTime","type":"dateTime"},{"name":"slideNumber","type":"slideNumber","textPreview":"#"}]}
+{"kind":"layout","layoutId":"/ppt/slideLayouts/slideLayout1.xml","name":"Title Slide","type":"obj","placeholders":[{"name":"title","type":"title"},{"name":"subtitle","type":"subtitle"},{"name":"footer","type":"footer"},{"name":"dateTime","type":"dateTime"},{"name":"slideNumber","type":"slideNumber","textPreview":"#"}]}
+{"kind":"layout","layoutId":"/ppt/slideLayouts/slideLayout2.xml","name":"Title and Content","type":"obj","placeholders":[{"name":"title","type":"title"},{"name":"body","type":"body"},{"name":"footer","type":"footer"},{"name":"dateTime","type":"dateTime"},{"name":"slideNumber","type":"slideNumber","textPreview":"#"}]}
+{"kind":"layout","layoutId":"/ppt/slideLayouts/slideLayout3.xml","name":"Two Content","type":"obj","placeholders":[{"name":"title","type":"title"},{"name":"holder 3"},{"name":"holder 4"},{"name":"footer","type":"footer"},{"name":"dateTime","type":"dateTime"},{"name":"slideNumber","type":"slideNumber","textPreview":"#"}]}
+{"kind":"layout","layoutId":"/ppt/slideLayouts/slideLayout4.xml","name":"Title Only","type":"obj","placeholders":[{"name":"title","type":"title"},{"name":"footer","type":"footer"},{"name":"dateTime","type":"dateTime"},{"name":"slideNumber","type":"slideNumber","textPreview":"#"}]}
+{"kind":"layout","layoutId":"/ppt/slideLayouts/slideLayout5.xml","name":"Blank","type":"obj","placeholders":[{"name":"footer","type":"footer"},{"name":"dateTime","type":"dateTime"},{"name":"slideNumber","type":"slideNumber","textPreview":"#"}]}
+{"kind":"slide","id":"sl/y90nupkv","slide":1,"title":"Conception et Réalisation d'une application mobile pour explorer les offres d...","textShapes":5}
+{"kind":"shape","id":"sh/547294r6","slide":1,"name":"object 2","bbox":[1082.79,913.82,837.27,166.2]}
+{"kind":"shape","id":"sh/k3yl0zql","slide":1,"name":"object 3","bbox":[1723.92,16.33,196.13,195.4]}
+{"kind":"shape","id":"sh/7qp4be9c","slide":1,"name":"object 4","bbox":[78.52,0,135.13,67.6]}
+{"kind":"shape","id":"sh/65g3298r","slide":1,"name":"object 5","bbox":[186.4,1042.1,3.07,37.93]}
+{"kind":"textbox","id":"sh/sryl4zqx","slide":1,"name":"object 7","text":"Conception et Réalisation d'une application mobile pour explorer les offres de restaurants","textPreview":"Conception et Réalisation d'une application mobile pour explorer les offres de restaurants","textChars":90,"textLines":1,"bbox":[108,394.84,1670,280.6]}
+{"kind":"textbox","id":"sh/utg3698n","slide":1,"name":"object 9","text":"Presenté par : Omar JABBOUR","textPreview":"Presenté par : Omar JABBOUR","textChars":27,"textLines":1,"bbox":[126.23,830.71,485.27,46.73]}
+{"kind":"textbox","id":"sh/wn6dc7eh","slide":1,"name":"object 10","text":"2024-2025","textPreview":"2024-2025","textChars":9,"textLines":1,"bbox":[840.1,1009.51,158.6,45.87]}
+{"kind":"textbox","id":"sh/hofulsf2","slide":1,"name":"object 11","placeholder":"title","text":"Soutenance du projet de fin d’année","textPreview":"Soutenance du projet de fin d’année","textChars":35,"textLines":1,"bbox":[0,0,0,0]}
+{"kind":"textbox","id":"sh/ul4vaxgb","slide":1,"name":"object 12","text":"Encadré par : Mr Yassine SAFSOUF","textPreview":"Encadré par : Mr Yassine SAFSOUF","textChars":32,"textLines":1,"bbox":[1199.68,830.71,566.07,46.73]}
+{"kind":"image","id":"im/kr6xgnu5","slide":1,"name":"object 6","bbox":[109.2,396.04,1667.82,278.2]}
+{"kind":"image","id":"im/bmxw3ido","slide":1,"name":"object 8","bbox":[256.29,25.72,553,121]}
+{"kind":"slide","id":"sl/hwbqtkby","slide":2,"title":"Plan","textShapes":2}
+{"kind":"shape","id":"sh/ozy1ofad","slide":2,"name":"object 3","bbox":[1524.18,0,395.87,1080]}
+{"kind":"textbox","id":"sh/a10jqpsj","slide":2,"name":"object 5","placeholder":"title","text":"Plan","textPreview":"Plan","textChars":4,"textLines":1,"bbox":[0,0,0,0]}
+{"kind":"shape","id":"sh/w3i1sfa9","slide":2,"name":"object 7","bbox":[0,6.49,195.93,216.07]}
+{"kind":"shape","id":"sh/q5wjelsz","slide":2,"name":"object 9","bbox":[308.79,470.66,47.6,53.6]}
+{"kind":"textbox","id":"sh/ove9o7yd","slide":2,"name":"object 10","text":"Introduction\nContexte général du projet Etude conceptuelle de la solution Réalisation et mise en œuvre Conclusion et perspective","textPreview":"Introduction | Contexte général du projet Etude conceptuelle de la solution Réalisation et mise en œuvre Conclusion et perspective","textChars":128,"textLines":2,"bbox":[383.25,359.06,512.47,459.33]}
+{"kind":"shape","id":"sh/9wnqhczy","slide":2,"name":"object 11","bbox":[308.79,563.3,47.6,53.6]}
+{"kind":"shape","id":"sh/mtwrmxg7","slide":2,"name":"object 12","bbox":[308.79,674.09,47.6,53.6]}
+{"kind":"shape","id":"sh/nu58f2hs","slide":2,"name":"object 13","bbox":[308.79,766.87,47.6,53.6]}
+{"kind":"shape","id":"sh/wjy9sry9","slide":2,"name":"object 14","bbox":[308.79,363.63,47.6,53.6]}
+{"kind":"image","id":"im/atwv650n","slide":2,"name":"object 4","bbox":[1238.5,46.95,627,986]}
+{"kind":"image","id":"im/xwne10je","slide":2,"name":"object 8","bbox":[256.29,25.72,553,121]}
+{"kind":"slide","id":"sl/ofy9wn61","slide":3,"title":"I NT R ODUC T I ON","textShapes":1}
+{"kind":"textbox","id":"sh/cza94vmx","slide":3,"name":"object 2","placeholder":"title","text":"I NT R ODUC T I ON","textPreview":"I NT R ODUC T I ON","textChars":18,"textLines":1,"bbox":[690.88,463.67,520.67,66.67]}
+{"kind":"shape","id":"sh/d0jax03i","slide":3,"name":"object 3","bbox":[1301.72,0,618.4,79.53]}
+{"kind":"shape","id":"sh/298ryl4v","slide":3,"name":"object 4","bbox":[1301.72,1000.53,618.4,79.53]}
+{"kind":"image","id":"im/6tknud0f","slide":3,"name":"object 5","bbox":[256.29,25.72,553,121]}
+{"kind":"slide","id":"sl/jyx0ra1s","slide":4,"title":"Dans un contexte où l'apprentissage en ligne prend de plus en plus d’ampleur,...","textShapes":2}
+{"kind":"shape","id":"sh/1cj2d8b6","slide":4,"name":"object 2","bbox":[1702.44,0,217.6,1080.13]}
+{"kind":"shape","id":"sh/0ba143al","slide":4,"name":"object 3","bbox":[155.04,260.8,1387.27,685.6]}
+{"kind":"textbox","id":"sh/rm1k7yt4","slide":4,"name":"object 4","text":"Dans un contexte où l'apprentissage en ligne prend de plus en plus d’ampleur, les outils\npédagogiques  interactifs  deviennent  essentiels  pour  favoriser  l'engagement  des apprenants.  Ce  projet  s'inscrit  dans  cette  dynamique  en  proposant  une  solution innovante  :  un  générateur  de  quiz  interactifs  doté  d’un  système  de  correction automatique.\nL’objectif  est  de  faciliter  la  création,  la  gestion  et  l’évaluation  des  connaissances  de\nmanière efficace, ludique et instantanée, aussi bien pour les enseignants que pour les apprenants.","textPreview":"Dans un contexte où l'apprentissage en ligne prend de plus en plus d’ampleur, les outils | pédagogiques  interactifs  deviennent  essenti...","textChars":565,"textLines":4,"bbox":[171.71,275.48,1355,640.87]}
+{"kind":"shape","id":"sh/doj29oba","slide":4,"name":"object 6","bbox":[0,6.49,195.93,216.07]}
+{"kind":"textbox","id":"sh/3ihk3et8","slide":4,"name":"object 8","text":"2","textPreview":"2","textChars":1,"textLines":1,"bbox":[899.67,1009.77,19.33,36]}
+{"kind":"image","id":"im/z6lc7q1o","slide":4,"name":"object 7","bbox":[256.29,25.72,553,121]}
+{"kind":"slide","id":"sl/i107q5of","slide":5,"title":"C ONT E X T E\tG É NÉ R A L\tDU\tPR OJE T","textShapes":2}
+{"kind":"textbox","id":"sh/dgbulwnm","slide":5,"name":"object 2","placeholder":"title","text":"C ONT E X T E\tG É NÉ R A L\tDU\tPR OJE T","textPreview":"C ONT E X T E\tG É NÉ R A L\tDU\tPR OJE T","textChars":38,"textLines":1,"bbox":[382.99,463.67,1087.6,66.67]}
+{"kind":"shape","id":"sh/cf2tcr61","slide":5,"name":"object 3","bbox":[1301.72,0,618.4,79.53]}
+{"kind":"shape","id":"sh/z2tcnm5s","slide":5,"name":"object 4","bbox":[1301.72,1000.53,618.4,79.53]}
+{"kind":"textbox","id":"sh/l4bupwny","slide":5,"name":"object 6","text":"3","textPreview":"3","textChars":1,"textLines":1,"bbox":[950.33,1024,19.33,36]}
+{"kind":"image","id":"im/h8juxg7q","slide":5,"name":"object 5","bbox":[256.29,25.72,553,121]}
+{"kind":"slide","id":"sl/x8f69ofe","slide":6,"title":"Problématique","textShapes":3}
+{"kind":"textbox","id":"sh/yhg7epsj","slide":6,"name":"object 2","placeholder":"title","text":"Problématique","textPreview":"Problématique","textChars":13,"textLines":1,"bbox":[0,0,0,0]}
+{"kind":"shape","id":"sh/zi98nu94","slide":6,"name":"object 3","bbox":[165.99,339.24,1377.4,585]}
+{"kind":"textbox","id":"sh/87ipkzal","slide":6,"name":"object 4","placeholder":"body","text":"La\tproblématique\tconcerne\tla\tconception\tet\tle\tdéveloppement\td'une\tapplication\tmobile\tpour\tla\tgestion\tde restaurants, visant à :\n\nSimplifier la recherche et la découverte des offres pour les utilisateurs.\nAméliorer la visibilité et la gestion des offres pour les restaurants.\n\nLes questions clés sont :\n\nQuelles fonctionnalités essentielles inclure pour répondre aux besoins des utilisateurs ?\nComment l'application peut-elle aider les restaurants à se démarquer dans un marché concurrentiel ? Quels outils et méthodes sont les plus appropriés pour atteindre cet objectif ?","textPreview":"La\tproblématique\tconcerne\tla\tconception\tet\tle\tdéveloppement\td'une\tapplication\tmobile\tpour\tla\tgestion\tde restaurants, visant à : |  | Simp...","textChars":572,"textLines":9,"bbox":[0,0,0,0]}
+{"kind":"shape","id":"sh/ml07i9sv","slide":6,"name":"object 6","bbox":[0,6.49,195.93,216.07]}
+{"kind":"textbox","id":"sh/oryp8fah","slide":6,"name":"object 8","placeholder":"slideNumber","text":"3","textPreview":"3","textChars":1,"textLines":1,"bbox":[0,0,0,0]}
+{"kind":"image","id":"im/0vel47m1","slide":6,"name":"object 7","bbox":[256.29,25.72,553,121]}
+{"kind":"slide","id":"sl/gnmp4jqx","slide":7,"title":"Objectifs","textShapes":3}
+{"kind":"textbox","id":"sh/cb2tkvap","slide":7,"name":"object 2","placeholder":"title","text":"Objectifs","textPreview":"Objectifs","textChars":9,"textLines":1,"bbox":[751.95,209.71,204.93,66.67]}
+{"kind":"shape","id":"sh/ydkbm5sv","slide":7,"name":"object 4","bbox":[165.99,329.05,1376.53,555]}
+{"kind":"textbox","id":"sh/baxkjqlk","slide":7,"name":"object 10","placeholder":"body","text":"L’objectif général de notre étude s’énonce comme étant la conception d’une application mobile. Cette application permettra de réaliser les opérations suivantes :\n\nSimplification du processus de recherche de restaurants Affichage clair des offres\nSystème de filtrage efficace Amélioration de l'expérience utilisateur Facilitation de la gestion des restaurants","textPreview":"L’objectif général de notre étude s’énonce comme étant la conception d’une application mobile. Cette application permettra de réaliser le...","textChars":358,"textLines":4,"bbox":[0,0,0,0]}
+{"kind":"shape","id":"sh/xcz2l03q","slide":7,"name":"object 12","bbox":[0,6.49,195.93,216.07]}
+{"kind":"textbox","id":"sh/n6x0fqlo","slide":7,"name":"object 14","placeholder":"slideNumber","text":"4","textPreview":"4","textChars":1,"textLines":1,"bbox":[0,0,0,0]}
+{"kind":"image","id":"im/lozex8zq","slide":7,"name":"object 5","bbox":[197.99,513.05,7,7]}
+{"kind":"image","id":"im/y1ofmd0z","slide":7,"name":"object 6","bbox":[197.99,558.05,7,7]}
+{"kind":"image","id":"im/j2xwvyhk","slide":7,"name":"object 7","bbox":[197.99,603.05,7,7]}
+{"kind":"image","id":"im/8rqxsni1","slide":7,"name":"object 8","bbox":[197.99,648.05,7,7]}
+{"kind":"image","id":"im/tsze1szm","slide":7,"name":"object 9","bbox":[197.99,693.05,7,7]}
+{"kind":"image","id":"im/hcbmpone","slide":7,"name":"object 13","bbox":[256.29,25.72,553,121]}
+{"kind":"slide","id":"sl/fu1gfa1s","slide":8,"title":"Diagramme de Gantt","textShapes":2}
+{"kind":"textbox","id":"sh/g72x4zyd","slide":8,"name":"object 3","placeholder":"title","text":"Diagramme de Gantt","textPreview":"Diagramme de Gantt","textChars":18,"textLines":1,"bbox":[618.21,209.71,471,66.67]}
+{"kind":"textbox","id":"sh/6h0fypgb","slide":8,"name":"object 5","placeholder":"slideNumber","text":"5","textPreview":"5","textChars":1,"textLines":1,"bbox":[0,0,0,0]}
+{"kind":"image","id":"im/03ahwbyd","slide":8,"name":"object 2","bbox":[47.95,339,1557,453]}
+{"kind":"image","id":"im/loji5gzi","slide":8,"name":"object 4","bbox":[256.29,25.72,553,121]}
+{"kind":"slide","id":"sl/udsvah03","slide":9,"title":"E T UDE\tC ONC E PT UE L L E\tDE\tL A\tSOL UT I ON","textShapes":2}
+{"kind":"textbox","id":"sh/1cfmhgne","slide":9,"name":"object 2","placeholder":"title","text":"E T UDE\tC ONC E PT UE L L E\tDE\tL A\tSOL UT I ON","textPreview":"E T UDE\tC ONC E PT UE L L E\tDE\tL A\tSOL UT I ON","textChars":46,"textLines":1,"bbox":[222.05,476.57,1364.8,66.67]}
+{"kind":"shape","id":"sh/0b65obm9","slide":9,"name":"object 3","bbox":[1301.72,0,618.4,79.53]}
+{"kind":"shape","id":"sh/nex4jq5k","slide":9,"name":"object 4","bbox":[1301.72,1000.53,618.4,79.53]}
+{"kind":"textbox","id":"sh/9gzml0nq","slide":9,"name":"object 6","placeholder":"slideNumber","text":"6","textPreview":"6","textChars":1,"textLines":1,"bbox":[0,0,0,0]}
+{"kind":"image","id":"im/psf21cve","slide":9,"name":"object 5","bbox":[256.29,25.72,553,121]}
+{"kind":"slide","id":"sl/m90b6t0r","slide":10,"title":"Diagramme de cas d’utilisation","textShapes":2}
+{"kind":"textbox","id":"sh/cbu58j2h","slide":10,"name":"object 3","placeholder":"title","text":"Diagramme de cas d’utilisation","textPreview":"Diagramme de cas d’utilisation","textChars":30,"textLines":1,"bbox":[516.52,495.34,686.6,66.67]}
+{"kind":"textbox","id":"sh/zelojyl8","slide":10,"name":"object 4","placeholder":"slideNumber","text":"7","textPreview":"7","textChars":1,"textLines":1,"bbox":[0,0,0,0]}
+{"kind":"image","id":"im/7yps7al8","slide":10,"name":"object 2","bbox":[256.29,25.72,553,121]}
+{"kind":"slide","id":"sl/jetc3ut0","slide":11,"title":"8","textShapes":1}
+{"kind":"textbox","id":"sh/wbih4b6d","slide":11,"name":"object 3","placeholder":"slideNumber","text":"8","textPreview":"8","textChars":1,"textLines":1,"bbox":[0,0,0,0]}
+{"kind":"image","id":"im/exczy10r","slide":11,"name":"object 2","bbox":[590.79,168.35,594.67,819.02]}
+{"kind":"slide","id":"sl/8f2psfyx","slide":12,"title":"Diagramme de classe","textShapes":2}
+{"kind":"textbox","id":"sh/0f2lgnmp","slide":12,"name":"object 3","placeholder":"title","text":"Diagramme de classe","textPreview":"Diagramme de classe","textChars":19,"textLines":1,"bbox":[635.12,495.34,469.93,66.67]}
+{"kind":"textbox","id":"sh/ra943il8","slide":12,"name":"object 4","placeholder":"slideNumber","text":"9","textPreview":"9","textChars":1,"textLines":1,"bbox":[0,0,0,0]}
+{"kind":"image","id":"im/721szuh0","slide":12,"name":"object 2","bbox":[256.29,25.72,553,121]}
+{"kind":"slide","id":"sl/hgzapcr6","slide":13,"title":"10","textShapes":1}
+{"kind":"textbox","id":"sh/bq9orito","slide":13,"name":"object 3","placeholder":"slideNumber","text":"10","textPreview":"10","textChars":2,"textLines":1,"bbox":[0,0,0,0]}
+{"kind":"image","id":"im/dcvmdk7y","slide":13,"name":"object 2","bbox":[378.13,194.86,1048.83,783.54]}
+{"kind":"slide","id":"sl/6lsnupw7","slide":14,"title":"Diagramme de séquence pour l’ajout d’une annonce","textShapes":2}
+{"kind":"textbox","id":"sh/wbydknq1","slide":14,"name":"object 3","placeholder":"title","text":"Diagramme de séquence pour l’ajout d’une annonce","textPreview":"Diagramme de séquence pour l’ajout d’une annonce","textChars":48,"textLines":1,"bbox":[602.31,486.33,582.13,150.67]}
+{"kind":"textbox","id":"sh/jepwf2pc","slide":14,"name":"object 4","placeholder":"slideNumber","text":"9","textPreview":"9","textChars":1,"textLines":1,"bbox":[0,0,0,0]}
+{"kind":"image","id":"im/j65k72x8","slide":14,"name":"object 2","bbox":[256.29,25.72,553,121]}
+{"kind":"slide","id":"sl/vaxsvy10","slide":15,"title":"10","textShapes":1}
+{"kind":"textbox","id":"sh/k3y5ov21","slide":15,"name":"object 3","placeholder":"slideNumber","text":"10","textPreview":"10","textChars":2,"textLines":1,"bbox":[0,0,0,0]}
+{"kind":"image","id":"im/apcb2xov","slide":15,"name":"object 2","bbox":[448.7,179.79,824.78,795.99]}
+{"kind":"slide","id":"sl/gny5sjyp","slide":16,"title":"R É A L I SA T I ON\tE T\tM I SE\tE N\tOE UV R E","textShapes":2}
+{"kind":"textbox","id":"sh/8z2h8bq1","slide":16,"name":"object 2","placeholder":"title","text":"R É A L I SA T I ON\tE T\tM I SE\tE N\tOE UV R E","textPreview":"R É A L I SA T I ON\tE T\tM I SE\tE N\tOE UV R E","textChars":44,"textLines":1,"bbox":[401.49,499.74,1153.4,66.67]}
+{"kind":"shape","id":"sh/9kby1g7m","slide":16,"name":"object 3","bbox":[1301.72,0,618.4,79.53]}
+{"kind":"shape","id":"sh/ytkf2h8j","slide":16,"name":"object 4","bbox":[1301.72,1000.53,618.4,79.53]}
+{"kind":"textbox","id":"sh/kv2h4rqp","slide":16,"name":"object 6","placeholder":"slideNumber","text":"11","textPreview":"11","textChars":2,"textLines":1,"bbox":[0,0,0,0]}
+{"kind":"image","id":"im/cze1sfy5","slide":16,"name":"object 5","bbox":[256.29,25.72,553,121]}
+{"kind":"slide","id":"sl/14bup87q","slide":17,"title":"Les\toutils\tde\tdéveloppement","textShapes":2}
+{"kind":"shape","id":"sh/snedsvml","slide":17,"name":"object 7","bbox":[524.92,706.65,83.6,57.6]}
+{"kind":"shape","id":"sh/jilcvq54","slide":17,"name":"object 8","bbox":[618.51,724.55,57.47,55.87]}
+{"kind":"shape","id":"sh/ihcvml4j","slide":17,"name":"object 9","bbox":[685.2,707.75,54.07,55.8]}
+{"kind":"shape","id":"sh/pc7qhwn6","slide":17,"name":"object 11","bbox":[746.44,707.75,120.93,64.07]}
+{"kind":"shape","id":"sh/29grm1of","slide":17,"name":"object 12","bbox":[753.03,591.07,135.73,133.33]}
+{"kind":"textbox","id":"sh/14rqpgne","slide":17,"name":"object 19","placeholder":"title","text":"Les\toutils\tde\tdéveloppement","textPreview":"Les\toutils\tde\tdéveloppement","textChars":27,"textLines":1,"bbox":[540.82,193.61,692.87,74.67]}
+{"kind":"textbox","id":"sh/90nq9gfi","slide":17,"name":"object 20","placeholder":"slideNumber","text":"12","textPreview":"12","textChars":2,"textLines":1,"bbox":[0,0,0,0]}
+{"kind":"image","id":"im/fy1czy50","slide":17,"name":"object 2","bbox":[256.29,25.72,553,121]}
+{"kind":"image","id":"im/gzats365","slide":17,"name":"object 3","bbox":[76.29,339.74,360,159]}
+{"kind":"image","id":"im/10ju18nq","slide":17,"name":"object 4","bbox":[565.06,331.63,286,202]}
+{"kind":"image","id":"im/6t8bmto3","slide":17,"name":"object 5","bbox":[1021.2,351.36,138.48,162.16]}
+{"kind":"image","id":"im/7uhsvypo","slide":17,"name":"object 6","bbox":[108,590.59,295,182]}
+{"kind":"image","id":"im/svqto369","slide":17,"name":"object 13","bbox":[780.01,613.95,7.37,8.87]}
+{"kind":"image","id":"im/twzaxonu","slide":17,"name":"object 14","bbox":[873.03,746.31,17.77,17.8]}
+{"kind":"image","id":"im/i5obi9o7","slide":17,"name":"object 15","bbox":[1045,592.41,205,184.76]}
+{"kind":"image","id":"im/j6xsreps","slide":17,"name":"object 16","bbox":[1389.91,349.28,186.55,189.28]}
+{"kind":"image","id":"im/lknexc7a","slide":17,"name":"object 17","bbox":[1404.75,622.22,156.47,141.53]}
+{"kind":"image","id":"im/0jedorqp","slide":17,"name":"object 18","bbox":[1359.85,817.25,226,226]}
+{"kind":"slide","id":"sl/y5wne50z","slide":18,"title":"Démonstration","textShapes":2}
+{"kind":"textbox","id":"sh/hsn2l4bu","slide":18,"name":"object 3","placeholder":"title","text":"Démonstration","textPreview":"Démonstration","textChars":13,"textLines":1,"bbox":[709.98,495.34,332.67,66.67]}
+{"kind":"textbox","id":"sh/itw3upcf","slide":18,"name":"object 4","placeholder":"slideNumber","text":"13","textPreview":"13","textChars":2,"textLines":1,"bbox":[0,0,0,0]}
+{"kind":"image","id":"im/2h0bax0b","slide":18,"name":"object 2","bbox":[256.29,25.72,553,121]}
+{"kind":"slide","id":"sl/nid43ytk","slide":19,"title":"C ONC L USI ON\tE T\tPE R SPE C T I V E","textShapes":2}
+{"kind":"textbox","id":"sh/9gb6xgbi","slide":19,"name":"object 2","placeholder":"title","text":"C ONC L USI ON\tE T\tPE R SPE C T I V E","textPreview":"C ONC L USI ON\tE T\tPE R SPE C T I V E","textChars":37,"textLines":1,"bbox":[391.27,511.9,1025.47,66.67]}
+{"kind":"shape","id":"sh/8v2pobax","slide":19,"name":"object 3","bbox":[1301.72,0,618.4,79.53]}
+{"kind":"shape","id":"sh/vitozqt8","slide":19,"name":"object 4","bbox":[1301.72,1000.53,618.4,79.53]}
+{"kind":"textbox","id":"sh/xkbq10be","slide":19,"name":"object 6","placeholder":"slideNumber","text":"14","textPreview":"14","textChars":2,"textLines":1,"bbox":[0,0,0,0]}
+{"kind":"image","id":"im/twzet0je","slide":19,"name":"object 5","bbox":[256.29,25.72,553,121]}
+{"kind":"slide","id":"sl/zyxsni5k","slide":20,"title":"Conclusion","textShapes":3}
+{"kind":"shape","id":"sh/rq50vmp8","slide":20,"name":"object 3","bbox":[0,6.49,195.93,216.07]}
+{"kind":"textbox","id":"sh/po3itc72","slide":20,"name":"object 5","placeholder":"title","text":"Conclusion","textPreview":"Conclusion","textChars":10,"textLines":1,"bbox":[0,0,0,0]}
+{"kind":"shape","id":"sh/2lczih8r","slide":20,"name":"object 6","bbox":[181.13,421.57,1340.4,268.33]}
+{"kind":"textbox","id":"sh/3ml0rmpw","slide":20,"name":"object 7","text":"Le\tprojet\tde\tdéveloppement\tde\tl'application\td'exploration\tdes\toffres\tde\trestaurants\ta\tatteint\tses\tobjectifs principaux, simplifiant la recherche pour les utilisateurs et améliorant la visibilité des restaurants.\n\nEn  utilisant  le  modèle  en  cascade,  nous  avons  structuré  le  projet  en  étapes  séquentielles,  facilitant  ainsi  la gestion et la planification, tout en surmontant les défis techniques grâce à des technologies modernes.","textPreview":"Le\tprojet\tde\tdéveloppement\tde\tl'application\td'exploration\tdes\toffres\tde\trestaurants\ta\tatteint\tses\tobjectifs principaux, simplifiant la re...","textChars":443,"textLines":3,"bbox":[183.8,418.83,1335.07,212.67]}
+{"kind":"textbox","id":"sh/gjuhg7ql","slide":20,"name":"object 8","placeholder":"slideNumber","text":"15","textPreview":"15","textChars":2,"textLines":1,"bbox":[0,0,0,0]}
+{"kind":"image","id":"im/8bmhgryl","slide":20,"name":"object 4","bbox":[256.29,25.72,553,121]}
+{"kind":"slide","id":"sl/m1wvqtk3","slide":21,"title":"Pérspective","textShapes":3}
+{"kind":"shape","id":"sh/0f2lon6p","slide":21,"name":"object 3","bbox":[0,6.49,195.93,216.07]}
+{"kind":"textbox","id":"sh/qp03yt8n","slide":21,"name":"object 5","placeholder":"title","text":"Pérspective","textPreview":"Pérspective","textChars":11,"textLines":1,"bbox":[0,0,0,0]}
+{"kind":"shape","id":"sh/sb2lk36t","slide":21,"name":"object 7","bbox":[181.13,421.57,1340.2,316.2]}
+{"kind":"textbox","id":"sh/5kjydsri","slide":21,"name":"object 11","text":"Bien\tque\tl'application\tsoit\tpleinement\tfonctionnelle\tet\tréponde\taux\tbesoins\tinitiaux,\tplusieurs\tpistes d'amélioration et d'enrichissement peuvent être envisagées pour les versions futures :\n\nSystème de notifications\nChatBot pour répondre aux besoins des utilisateurs Système de recommandations","textPreview":"Bien\tque\tl'application\tsoit\tpleinement\tfonctionnelle\tet\tréponde\taux\tbesoins\tinitiaux,\tplusieurs\tpistes d'amélioration et d'enrichissement...","textChars":293,"textLines":4,"bbox":[183.8,421.83,1335.07,254.67]}
+{"kind":"textbox","id":"sh/ixsf2d87","slide":21,"name":"object 12","placeholder":"slideNumber","text":"16","textPreview":"16","textChars":2,"textLines":1,"bbox":[0,0,0,0]}
+{"kind":"image","id":"im/47itwfuh","slide":21,"name":"object 4","bbox":[256.29,25.72,553,121]}
+{"kind":"image","id":"im/ra9c7uds","slide":21,"name":"object 8","bbox":[213.13,575.57,7,7]}
+{"kind":"image","id":"im/690vypcn","slide":21,"name":"object 9","bbox":[213.13,617.57,7,7]}
+{"kind":"image","id":"im/tcru9kvy","slide":21,"name":"object 10","bbox":[213.13,659.57,7,7]}
+{"kind":"slide","id":"sl/5onypobq","slide":22,"title":"M E R C I\tPOUR\tV OT R E\tA T T E NT I ON","textShapes":2}
+{"kind":"textbox","id":"sh/6987itcr","slide":22,"name":"object 2","placeholder":"title","text":"M E R C I\tPOUR\tV OT R E\tA T T E NT I ON","textPreview":"M E R C I\tPOUR\tV OT R E\tA T T E NT I ON","textChars":39,"textLines":1,"bbox":[349.06,495.34,1080.87,66.67]}
+{"kind":"shape","id":"sh/7a18rydc","slide":22,"name":"object 3","bbox":[1301.72,0,618.4,79.53]}
+{"kind":"shape","id":"sh/k7qpgjul","slide":22,"name":"object 4","bbox":[1301.72,1000.53,618.4,79.53]}
+{"kind":"textbox","id":"sh/il87etcv","slide":22,"name":"object 6","placeholder":"slideNumber","text":"17","textPreview":"17","textChars":2,"textLines":1,"bbox":[0,0,0,0]}
+{"kind":"image","id":"im/2xwnihk7","slide":22,"name":"object 5","bbox":[256.29,25.72,553,121]}

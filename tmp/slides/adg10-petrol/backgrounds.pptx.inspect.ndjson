@@ -1,0 +1,9 @@
+{"kind":"deck","id":"pr/gguuwi","name":"Deck"}
+{"kind":"layout","layoutId":"3b7bb92f-7ed7-481e-9db5-c7afa2fcb69f","name":"Master","type":"master"}
+{"kind":"layout","layoutId":"8602fdbf-440b-4563-82d9-21c87098ad8e","name":"Title Slide","type":"title"}
+{"kind":"slide","id":"sl/c977z3","slide":1,"title":"Slide 1","textShapes":0}
+{"kind":"image","id":"im/cvmtw76d","slide":1,"name":"","alt":"Fond corporate bleu pétrole, illustration décorative générée","bbox":[0,0,1920,1080]}
+{"kind":"notes","id":"nt/c977z3","slide":1,"text":""}
+{"kind":"slide","id":"sl/iflptz","slide":2,"title":"Slide 2","textShapes":0}
+{"kind":"image","id":"im/g7a5cvip","slide":2,"name":"","alt":"Fond corporate bleu pétrole, illustration décorative générée","bbox":[0,0,1920,1080]}
+{"kind":"notes","id":"nt/iflptz","slide":2,"text":""}

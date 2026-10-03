@@ -1,3 +1,7 @@
 pyairtable
 python-dotenv
-fpdf2
+groq
+pandas
+pywhatkit
+reportlab
+streamlit

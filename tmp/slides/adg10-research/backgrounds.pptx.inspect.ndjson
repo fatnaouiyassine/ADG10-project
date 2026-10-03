@@ -1,0 +1,9 @@
+{"kind":"deck","id":"pr/wf355d","name":"Deck"}
+{"kind":"layout","layoutId":"380132c6-db3a-4540-b52f-46022d59e1d3","name":"Master","type":"master"}
+{"kind":"layout","layoutId":"9a811a52-08f8-479d-bb24-a927576d2cda","name":"Title Slide","type":"title"}
+{"kind":"slide","id":"sl/9trfnu","slide":1,"title":"Slide 1","textShapes":0}
+{"kind":"image","id":"im/jmx0zel4","slide":1,"name":"","alt":"Fond ivoire à motifs géométriques bleu grisé, terracotta et anthracite, illustration générée","bbox":[0,0,1920,1080]}
+{"kind":"notes","id":"nt/9trfnu","slide":1,"text":""}
+{"kind":"slide","id":"sl/pv8kh8","slide":2,"title":"Slide 2","textShapes":0}
+{"kind":"image","id":"im/yp0jil0f","slide":2,"name":"","alt":"Fond ivoire à motifs géométriques bleu grisé, terracotta et anthracite, illustration générée","bbox":[0,0,1920,1080]}
+{"kind":"notes","id":"nt/pv8kh8","slide":2,"text":""}

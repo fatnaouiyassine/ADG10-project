@@ -1,21 +1,34 @@
-from pyairtable import Api
-from config import AIRTABLE_TOKEN, AIRTABLE_BASE_ID
+"""Acces minimal et paresseux a Airtable."""
 
-_api = Api(AIRTABLE_TOKEN)
+from functools import lru_cache
+
+from pyairtable import Api
+
+from config import require_configuration, settings
+
+
+@lru_cache(maxsize=1)
+def get_api() -> Api:
+    require_configuration("airtable_token", "airtable_base_id")
+    return Api(settings.airtable_token)
 
 
 def get_table(table_name: str):
-    """Retourne une référence à une table Airtable."""
-    return _api.table(AIRTABLE_BASE_ID, table_name)
+    """Retourne une reference a une table Airtable."""
+    if not table_name or not table_name.strip():
+        raise ValueError("Le nom de la table Airtable est obligatoire.")
+    return get_api().table(settings.airtable_base_id, table_name.strip())
 
 
 def get_all_records(table_name: str):
-    """Récupère tous les enregistrements d'une table."""
-    table = get_table(table_name)
-    return table.all()
+    """Recupere tous les enregistrements d'une table."""
+    return get_table(table_name).all()
 
 
 def update_record(table_name: str, record_id: str, fields: dict):
-    """Met à jour un enregistrement."""
-    table = get_table(table_name)
-    return table.update(record_id, fields)
+    """Met a jour un enregistrement Airtable."""
+    if not record_id:
+        raise ValueError("L'identifiant Airtable est obligatoire.")
+    if not fields:
+        return None
+    return get_table(table_name).update(record_id, fields)
